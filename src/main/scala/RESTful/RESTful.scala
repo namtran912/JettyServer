@@ -4,23 +4,12 @@ package RESTful
   * Created by TuNam1995 on 30/08/2016.
   */
 
-import java.io.BufferedReader
-import java.io.IOException
-import java.io.InputStream
-import java.io.InputStreamReader
-import javax.servlet.http.HttpServletRequest
-import javax.servlet.http.HttpServletResponse
-import javax.ws.rs.Consumes
-import javax.ws.rs.GET
-import javax.ws.rs.POST
-import javax.ws.rs.Path
-import javax.ws.rs.PathParam
-import javax.ws.rs.Produces
-import javax.ws.rs.core.Context
-import javax.ws.rs.core.MediaType
-import javax.ws.rs.core.Response
+import java.io.{BufferedReader, IOException, InputStream, InputStreamReader}
+import javax.servlet.http.{HttpServletRequest, HttpServletResponse}
+import javax.ws.rs._
+import javax.ws.rs.core.{Context, MediaType, Response}
+
 import Model.Person
-import Model.Persona
 
 @Path("/javahonkJetty")
 class RESTful {
